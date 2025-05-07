@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="body">
+        <div class="container">
+        <form id="registratioform" onsubmit="return validation()">
+            <h2 class="h2">Password Verification</h2>
+            <div class="d1">
+            <label class="label" for="name">Name: </label>
+            <input class="input" type="text" id="Pname" required>
+            </div>
+
+            <div class="d2"><label class="label" for="password">Password: </label>
+            <input class="input" type="password" id="Ppassword" required></div>
+
+            <div class="d3"><label class="label" for="repassword">Re-Password: </label>
+            <input class="input" type="password" id="Rpassword" required></div>
+
+            <div class="b1"><button class="sbutton" type="submit">Submit</button></div>
+        </form>
+        <p id="message"></p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
